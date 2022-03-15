@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    //adiciona as bibliotecas que a aplicação necessita
+      "lib":["dom","DOM.Iterable","esnext"],
+      //permite arquvios javascript
+      "allowJs": true,
+      //especifica que estamos usando react
+      "jsx": "react-jsx",
+      //não emitir codigo no build da aplicação
+      "noEmit": true,
+      //modo de lidar com erros do JS
+      "strict": true,
+
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+
+
+  }, 
+  //especifica a pasta da aplicação
+  "include": ["src"]
+
+
+
+}
